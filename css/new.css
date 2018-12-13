@@ -1,0 +1,473 @@
+
+.navbar{
+background-color: inherit;
+border: none;
+}
+.navbar-default .navbar-nav > li > a{
+color: #fff;
+font-size: 18px;
+}
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover{
+color: #00aeda;
+}
+.navbar-default .navbar-brand{
+color: #fff;
+font-size: 18px;
+}
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover{
+color: #ddd;  
+}
+.scrolled{
+  background: rgba(0, 0, 0, .8);
+
+}
+
+
+ /** start header*/
+ header{
+  background: url('../image/header-bg.jpg') no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+  background-size: cover;
+  padding-top: 250px;
+  padding-bottom: 50px;
+  position: relative;
+  height: 635px;
+ }
+ header h1{
+   text-align: center;
+   font-size: 60;
+   font-weight: 900;
+   color: #fff;
+   letter-spacing: 10px;
+ }
+ header p{
+   text-align: center;
+   color: #fff;
+   font-size: 20px;
+   padding-top: 20px;
+   white-space: 20px;
+ }
+ header .new{
+   font-size: 40px;
+   padding-top: 30px;
+   cursor: pointer;
+ }
+ /*end header*/
+/*staer featuer*/
+.featuer{
+  text-align: center;
+  background-color: #2e2e30;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.featuer h1{
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+}
+.featuer p{
+  font-size: 15px;
+  color: #a1a1a1;
+}
+.featuer .ion{
+  width: 59px;
+  border: 1px solid #fff;
+  height: 63px;
+  border-radius: 50%;
+  background-color: #00aeda;
+}
+.featuer .ion i{
+  text-align: center;
+  color: #fff;
+  display: block;
+  margin-top: 13px;
+  font-size: 32px;
+}
+.featuer .Personal h4{
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+.clearfix{
+  clear: both;
+}
+.featuer .persona{
+  margin-top: 40px;
+}
+/*end featuer*/
+/*start My promise to you*/
+.promise{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.promise .promis h1{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.promise .promis p{
+  color: #a1a1a1;
+  font-size: 16px;
+  text-align: center;
+}
+.promise .promi{
+  padding-top: 50px;
+}
+.promise .prom i{
+  font-size: 50px;
+  padding-bottom: 15px;
+  padding-top: 40px;
+  color: #00aeda;
+}
+.promise .prom .on{
+  display: block;
+  margin-left: 327px;
+  font-size: 50px;
+  padding-bottom: 15px;
+  padding-top: 40px;
+  color: #00aeda;
+}
+@media(max-width:767px){
+  .promise .prom .on{
+    margin-left: 0;
+  }
+}
+.promise .prom  p{
+  font-size: 17px;
+  color: #a1a1a1;
+}
+.promise .promi img{
+  margin-left: -20px;
+}
+@media(max-width:767px){
+  .promise .promi img{
+    display: block;
+    margin-left: 0 auto;
+    
+
+  }
+}
+.promise  .marg{
+  margin-left: 20px;
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+/*end My promise to you*/
+/*start Keep your body fit & strong to live longer*/
+.strong{
+  margin-top: 80px;
+  background-color: #f9f9f9;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.strong .srton h1{
+  font-size: 35px;
+  font-weight: 900;
+}
+.strong .srton p{
+  font-size: 19px;
+  color: #a1a1a1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.strong .srton ul{
+  font-size: 19px;
+  color: #a1a1a1;
+  margin-left: -20px;
+}
+.strong .srton ul li{
+  padding-top: 10px;
+}
+@media(max-width:767px){
+  .strong img{
+    width: 100%;
+  }
+}
+/*end Keep your body fit & strong to live longer*/
+/*start See The Results and Feel the difference*/
+.difference{
+  margin-top: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.difference .differenc h1{
+  font-size: 35px;
+  font-weight: 800;
+}
+.difference .differenc p{
+  font-size: 19px;
+  color: #a1a1a1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.difference .differenc ul{
+  font-size: 19px;
+  color: #a1a1a1;
+  margin-left: -20px;
+}
+.difference .differenc ul li{
+  padding-top: 10px;
+}
+@media(max-width:767px){
+  .difference img{
+    width: 100%;
+  }
+}
+/*end See The Results and Feel the difference/*
+/*start start Command Performance You deserve it*/
+.Performance{
+  margin-top: 80px;
+  background-color: #f9f9f9;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.Performance .Performanc h1{
+  font-size: 35px;
+  font-weight: 900;
+}
+.Performance .Performanc p{
+  font-size: 19px;
+  color: #a1a1a1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.Performance .Performanc ul{
+  font-size: 19px;
+  color: #a1a1a1;
+  margin-left: -20px;
+}
+.Performance .Performanc ul li{
+  padding-top: 10px;
+}
+@media(max-width:767px){
+  .Performance img{
+    width: 100%;
+  }
+}
+/*end start Command Performance You deserve it*/
+/*start If it’s not personal, It’s not possible*/
+.personal{
+  background: url('../image/image-bg.jpg') no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+.personal .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.personal .overlay h1{
+  text-align: center;
+  padding-top: 180px;
+  color: #fff;
+  font-size: 30px;
+  line-height: 45px;
+}
+.personal .overlay button{
+  display: block;
+  margin: 0 auto;
+  margin-top: 43px;
+  width: 179px;
+  height: 52px;
+  border: 1px solid #fff;
+  background-color: #00aeda;
+  border-radius: 10px;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.personal .overlay button:hover{
+  background-color: inherit;
+  border-color: #00aeda;
+}
+/*end If it’s not personal, It’s not possible*/
+/*start PACKAGES*/
+.packges{
+  background-color: #2e2e30;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.packges .packge h1{
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+.packges .packge p{
+  color: #a1a1a1;
+  font-size: 16px;
+  text-align: center;
+}
+.packges .packg{
+  border: 1px solid #222225;
+  height: 550px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  background-color: #222225;
+  text-align: center;
+  margin-top: 70px;
+}
+.packges .packg h3{
+  color: #7d7d7f;
+  font-size: 23px;
+  font-weight: 600;
+}
+.packges .packg h1{
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.packges .packg p{
+  line-height: 35px;
+  color: #7d7d7f;
+  padding-bottom: 15px;
+}
+.packges .packg button{
+  width: 150px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid #00aeda;
+  text-transform: uppercase;
+  border-radius: 10px;
+  background-color: #00aeda;
+  color: #fff;
+}
+.packges .packg button:hover{
+  background-color: inherit;
+  border-color: #00aeda;
+}
+/*end PACKAGES*/
+/*start start Sign Up to Our Newsletter and get exciting offers*/
+.Sign{
+  background: url('../image/cta_bg.jpg') no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  text-align: center;
+}
+.Sign .overla{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: rgba(2, 155, 193, 0.5);
+}
+.Sign .overla h1{
+  padding-top: 100px;
+  color: #fff;
+}
+.Sign .overla p{
+  color: #fff;
+}
+.Sign .overla .mail{
+  background-color: #F9F9F9;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  height: 40px;
+  padding: 0 130px 0 20px;
+  box-shadow: none;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  transition: all .3s;
+}
+.Sign .overla .submit-button{
+  font-size: 0.9em;
+height: 40px;
+border: 2px solid;
+  border-top-color: currentcolor;
+  border-right-color: currentcolor;
+  border-bottom-color: currentcolor;
+  border-left-color: currentcolor;
+  border-radius: 0 5px 5px 0;
+  margin: 0;
+  padding: 0 25px 0 25px;
+  border-color: #222225;
+  background-color: #222225;
+  color: #FFFFFF;
+  box-shadow: 0 0 1px transparent;
+  outline: none;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  transition: 500ms;
+}
+/*end start Sign Up to Our Newsletter and get exciting offers*/
+/*start footer*/
+footer{
+  background-color: #222225;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+footer .about h1{
+  color: #fff;
+  font-size: 23px;
+}
+footer .about p{
+  color: #a1a1a1;
+}
+footer .social h1{
+  color: #fff;
+  font-size: 23px;
+}
+footer .social li{
+  list-style: none;
+  line-height: 25px;
+}
+footer .contact h1{
+  font-size: 23px;
+  color: #fff;
+}
+footer .contact p{
+  color: #a1a1a1;
+}
+/*end footer*/
+.back-to-top {
+  background: rgba(0, 174, 218, 0.5);
+  margin: 0;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  z-index: 90;
+  display: none;
+  text-decoration: none;
+  color: #0E1729;
+  display: inline;
+} 
+.back-to-top:hover {
+  background: rgba(0, 174, 218, 0.9);
+  color: #FFFFFF;
+}
+.back-to-top i {
+  position: relative;
+  left: 13px;
+  top: 2px;
+  font-size: 24px;
+  color: #FFFFFF;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms;
+} 
